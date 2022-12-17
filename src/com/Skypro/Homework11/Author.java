@@ -4,12 +4,12 @@ public class Author {
     private final String authorName;
     private final String authorSurname;
 
-    protected Author(String authorName, String authorSurname) {
+    public Author(String authorName, String authorSurname) {
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
 
-    protected Author() {
+    public Author() {
         throw new NullPointerException("Книга должна иметь автора");
     }
 
@@ -22,6 +22,6 @@ public class Author {
     }
 
     public String getAuthorFullName() {
-        return getAuthorName() + " " + getAuthorSurname();
+        return authorName + " " + authorSurname;
     }
 }

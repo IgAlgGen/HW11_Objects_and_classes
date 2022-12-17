@@ -12,8 +12,8 @@ public class BookShelf {
         //book1.setYearOfPublishing(1598);
         //book2.setYearOfPublishing(2000);
 
-        System.out.println(book1.author.getAuthorFullName() + " " + book1.getBookTitle() + " " + book1.getYearOfPublishing());
-        System.out.println(book2.author.getAuthorFullName() + " " + book2.getBookTitle() + " " + book2.getYearOfPublishing());
+        System.out.println(book1.getAuthor() + " " + book1.getBookTitle() + " " + book1.getYearOfPublishing());
+        System.out.println(book2.getAuthor() + " " + book2.getBookTitle() + " " + book2.getYearOfPublishing());
 
 
     }

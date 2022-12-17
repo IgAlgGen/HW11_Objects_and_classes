@@ -2,7 +2,7 @@ package com.Skypro.Homework11;
 
 public class Book {
 
-    protected final Author author;
+    private final Author author;
     private final String bookTitle;
     private int yearOfPublishing;
 
